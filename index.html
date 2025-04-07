@@ -1,20 +1,52 @@
 <!DOCTYPE html> 
-<html lang = "en">
+<html lang="en">
 <head>
-    <meta charset = "UTF-8"/>
+    <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Portfolio</title>
-    <link rel = "stylesheet" href = "style.css"/>
+    <link rel="stylesheet" href="style.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class = "border">
-        <div class = "name">
-            <div class = "nameLine">
+    <div class="wrapper">
+
+        <div class="name">
+            <div class="nameLine">
                 <h1>Jeremy Lin</h1>
-                <hr class = "line"/>
+                <hr class="line"/>
             </div>
-            <h2 class = "occupation">CS Student at Pasadena City College</h2>
+            <h2 class="occupation">CS Student at Pasadena City College</h2>
         </div>
+
+        <div class="dropdowns">
+            <button class="dropdown-btn">About Me</button>
+            <div class="dropdown-content">
+                <p>Kia Ora! I’m Jeremy. I'm originally New Zealand and moved to California to pursue my degree in Computer Science. 
+                    I'm well versed in a variety of languages, including C++, Python, Java, HTML, CSS and Javascript. My personal and
+                    academic projects have given me a strong fundation in algorithims and data structures - skills that I hope to apply to solve
+                    real-world problems efficiently. I'm also passionate about the diversity of cooking, which is why my next project will be a Virtual Pantry 
+                    that brings technology, food and commnuity together!
+                </p>
+            </div>
+
+            <button class="dropdown-btn">Projects</button>
+            <div class="dropdown-content">
+                <p><a href="https://github.com/jeremylin2005/GraphingCalculator" target="_blank"><strong>Graphing Calculator:</strong></a> Polynomial Graphing Calculator made from a combination of data structures and algorithims in C++ and SFML</p>
+                <p><a href="https://github.com/jeremylin2005/PokerTracker" target="_blank"><strong>Poker Assistant:</strong></a> Poker Assistant that tracks chip stacks and Poker calculations</p>
+                <p><strong>(IP) Crime Map Visualizer:</strong> Interactive web map visualizing crime data in Pasadena</p>
+                <p><strong>(PL) Virtual Pantry:</strong> Tracks users' ingredients and suggests informative and efficient recipes in collaboration with content creators. Recipes are adjusted based on users' needs</p>
+            </div>
+
+            <button class="dropdown-btn">Contact</button>
+            <div class="dropdown-content">
+                <p><strong>Email:</strong> jeremylin.work@gmail.com</p>
+                <p><strong>GitHub: </strong> <a href="https://github.com/jeremylin2005" target="_blank">jeremylin2005</a></p>
+                <p><strong>LinkedIn: </strong> <a href="linkedin.com/in/jeremy-lin-ab16b8349/" target="_blank">Jeremy Lin</a></p>
+            </div>
+        </div>
+
     </div>
+
+    <script src="script.js"></script>
 </body>
+</html>
